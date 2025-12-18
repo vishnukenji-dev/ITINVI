@@ -1,83 +1,11 @@
 [
   {
-    "COMPUTER NAME": "Hrdstaff",
-    "CPU": "I7",
-    "RAM": 8,
-    "OS": "WINDOWS 10",
+    "COMPUTER_NAME": "Hrdstaff",
+    "CPU": "i7",
+    "RAM": "8",
+    "OS": "Windows 10",
     "STORAGE": "1TB",
-    "IP ADDRESS": "192.100.101.44",
-    "REMARKS": ""
-  },
-  {
-    "COMPUTER NAME": "ISD-GILDA",
-    "CPU": "I7",
-    "RAM": 8,
-    "OS": "WINDOWS 10",
-    "STORAGE": "500GB",
-    "IP ADDRESS": "192.100.101.45",
-    "REMARKS": ""
-  },
-  {
-    "COMPUTER NAME": "ISD-GLAIZA",
-    "CPU": "I7",
-    "RAM": 4,
-    "OS": "WINDOWS 11",
-    "STORAGE": "1TB",
-    "IP ADDRESS": "192.100.101.46",
-    "REMARKS": ""
-  },
-  {
-    "COMPUTER NAME": "Payroll-PC",
-    "CPU": "I7",
-    "RAM": 4,
-    "OS": "WINDOWS 7",
-    "STORAGE": "500GB",
-    "IP ADDRESS": "192.100.101.47",
-    "REMARKS": "unable to install"
-  },
-  {
-    "COMPUTER NAME": "SO",
-    "CPU": "I7",
-    "RAM": 4,
-    "OS": "WINDOWS 10",
-    "STORAGE": "1TB",
-    "IP ADDRESS": "192.100.101.48",
-    "REMARKS": ""
-  },
-  {
-    "COMPUTER NAME": "FSD_SHANE",
-    "CPU": "I7",
-    "RAM": 8,
-    "OS": "WINDOWS 11",
-    "STORAGE": "500GB",
-    "IP ADDRESS": "192.100.101.49",
-    "REMARKS": ""
-  },
-  {
-    "COMPUTER NAME": "DESKTOP-D143GAE",
-    "CPU": "I7",
-    "RAM": 8,
-    "OS": "WINDOWS 10",
-    "STORAGE": "1TB",
-    "IP ADDRESS": "192.100.101.50",
-    "REMARKS": ""
-  },
-  {
-    "COMPUTER NAME": "DESKTOP-QOAMMSK",
-    "CPU": "I7",
-    "RAM": 8,
-    "OS": "WINDOWS 11",
-    "STORAGE": "500GB",
-    "IP ADDRESS": "192.100.101.71",
-    "REMARKS": ""
-  },
-  {
-    "COMPUTER NAME": "ISD_BREENA",
-    "CPU": "I7",
-    "RAM": 8,
-    "OS": "WINDOWS 11",
-    "STORAGE": "500GB",
-    "IP ADDRESS": "192.100.101.177",
+    "IP_ADDRESS": "192.100.101.44",
     "REMARKS": ""
   }
 ]
