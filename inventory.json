@@ -7,5 +7,15 @@
     "STORAGE": "1TB",
     "IP_ADDRESS": "192.100.101.44",
     "REMARKS": ""
+  },
+  {
+    "COMPUTER_NAME": "Hrdstaff2",
+    "CPU": "i5",
+    "RAM": "16",
+    "OS": "Windows 11",
+    "STORAGE": "512GB",
+    "IP_ADDRESS": "192.100.101.45",
+    "REMARKS": "Test"
   }
 ]
+
