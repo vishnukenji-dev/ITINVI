@@ -5,7 +5,7 @@
     "RAM": "8",
     "OS": "Windows 10",
     "STORAGE": "1TB",
-    "IP_ADDRESS": 192.100.101.44,
+    "IP_ADDRESS": "192.100.101.44",
     "REMARKS": ""
   },
   {
@@ -18,5 +18,6 @@
     "REMARKS": "Test"
   }
 ]
+
 
 
