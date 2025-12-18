@@ -1,0 +1,20 @@
+[
+  {
+    "computer_name": "PC-001",
+    "cpu": "Intel i5-10400",
+    "ram": "16 GB",
+    "os": "Windows 11 Pro",
+    "storage": "512 GB SSD",
+    "ip_address": "192.168.1.10",
+    "remarks": "Office PC"
+  },
+  {
+    "computer_name": "SRV-01",
+    "cpu": "Intel Xeon E-2246G",
+    "ram": "32 GB",
+    "os": "Windows Server 2022",
+    "storage": "2 TB SSD",
+    "ip_address": "192.168.1.20",
+    "remarks": "File Server"
+  }
+]
