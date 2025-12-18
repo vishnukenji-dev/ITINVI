@@ -1,55 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
   <title>IT Inventory</title>
-  <style>
-    body { font-family: Arial, sans-serif; }
-    table { border-collapse: collapse; width: 100%; }
-    th, td { border: 1px solid #ccc; padding: 8px; }
-    th { background: #f4f4f4; }
-  </style>
 </head>
 <body>
+  <h1>IT Inventory</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>COMPUTER NAME</th>
+        <th>CPU</th>
+        <th>RAM</th>
+        <th>OS</th>
+        <th>STORAGE</th>
+        <th>IP ADDRESS</th>
+        <th>REMARKS</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+      <!-- Rows will be added here -->
+    </tbody>
+  </table>
 
-<h2>IT Inventory</h2>
-
-<table id="inventory">
-  <thead>
-    <tr>
-      <th>COMPUTER NAME</th>
-      <th>CPU</th>
-      <th>RAM</th>
-      <th>OS</th>
-      <th>STORAGE</th>
-      <th>IP ADDRESS</th>
-      <th>REMARKS</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
-
-<script>
-fetch("inventory.json")
-  .then(response => response.json())
-  .then(data => {
-    const tbody = document.querySelector("#inventory tbody");
-    data.forEach(item => {
-      const row = `
-        <tr>
-          <td>${item.computer_name}</td>
-          <td>${item.cpu}</td>
-          <td>${item.ram}</td>
-          <td>${item.os}</td>
-          <td>${item.storage}</td>
-          <td>${item.ip_address}</td>
-          <td>${item.remarks}</td>
-        </tr>
-      `;
-      tbody.innerHTML += row;
-    });
-  });
-</script>
-
+  <script>
+    fetch("inventory.json")
+      .then(response => response.json())
+      .then(data => {
+        const tableBody = document.getElementById("table-body");
+        data.forEach(item => {
+          const row = `<tr>
+            <td>${item.COMPUTER_NAME}</td>
+            <td>${item.CPU}</td>
+            <td>${item.RAM}</td>
+            <td>${item.OS}</td>
+            <td>${item.STORAGE}</td>
+            <td>${item.IP_ADDRESS}</td>
+            <td>${item.REMARKS}</td>
+          </tr>`;
+          tableBody.innerHTML += row;
+        });
+      })
+      .catch(err => console.error("Error loading JSON:", err));
+  </script>
 </body>
 </html>
+
